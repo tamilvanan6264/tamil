@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tamil</title>
+</head>
+<body>
+    <h1>Form Creating </h1>
+    <form action="newhtml.html" >
+        <div>
+            <label for="yy"> Enter The Name</label>
+            <input type="text" name="Enter The Name" placeholder="Name...." id="yy" maxlength="10" minlength="2" required>
+        </div> <br>
+        <div>
+            <label for="mail">Enter The Mail</label>
+            <input type="email" id="mail" required placeholder="Email....">
+        </div> <br>
+        <div>
+            <label for="rr">Enter The Password</label>
+            <input type="password" name="Enter The Password " placeholder="Password..." id="rr" maxlength="10" minlength="2" required>
+        </div> <br>
+        <div>
+            <label for="tam"> Enter The Code</label>
+            <input type="number"  name= "Code" id="tam" placeholder="Code..." maxlength="10" minlength="2" required >
+        </div> <br>
+        <div>
+            <label >Enter The Capcha
+                <input type="text" name="Capcha" id="" placeholder="Capcha..." maxlength="10" minlength="2" required size="20">
+            </label>
+        </div> <br>
+        <div>
+            <label for="date"> Enter The Date Of Birth</label>
+            <input type="date" min="2000-01-01" max="2024-01-01" id="date"> 
+        </div> <br>
+        <div>
+            <input type="checkbox" name="bot" id="bott">
+            <label for="bott">i am not a bot</label> <br>
+            <input type="checkbox" name="accecpt" id="acc">
+            <label for="acc">Accept terms and condition</label>
+        </div> 
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label> <br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <label for="tre">if you are not a bot select the red colour</label> <br>
+            <input type="color" size="" required id="tre">
+        </div> <br>
+        <div>
+            <button type="submit"> Login</button>
+            <button type="reset"> Reset</button> 
+        </div> <br>
+        <div>
+           <label for="text">User Feedback</label> <br>
+            <textarea name="textarea" id="text" cols="30" rows="5">Feedback....</textarea>
+        </div>
+        <!-- creating the selection tags -->
+        <div>
+            <label for="sel">Select The State</label>
+            <select name="state" id="sel">
+                <option value="tamilnadu">Tamilnadu</option>
+                <option value="kerala">Kerala</option>
+            <option value="maharastra">Maharastra</option>
+            </select>
+        </div> <br>
+        <!-- to upload the files -->
+        <div>
+        <label for="file"> Upload The file</label>
+        <input type="file">
+        </div>
+    </form>
+
+</body>
+</html>

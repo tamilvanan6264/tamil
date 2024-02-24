@@ -1,0 +1,151 @@
+ /* used to select the heddings */
+ h1{
+    color: blue;
+ }
+ /* used to select all the words in the html */
+ *{
+    color: black;
+ }
+ /* used to select the id*/
+ #cs{
+    color: brown;
+ }
+ /* used to select the class*/
+ .css{
+    color: blueviolet;
+ }
+ /* parent class and child class*/
+ /* the tag which has the another tag inside in it called the child tag*/
+ /*select the child class   div is a parent and p is a child*/
+ div>p{
+    color: green;
+ }
+ /*selecting the sibilings  div is a parent for all the headding tags  and all the headding tagas are the child class to it*/
+ h1~h2{
+    color: yellow;
+ }
+ /* to select he adjacent sibilling of the h1 tag */
+ h1+h2{
+    color:purple;
+ }
+ /* important is the key word used to denote the more specifically  , it has the more important tne any  order of color*/
+ h1{
+    color: pink !important ;
+ }
+ /* colors in css*/
+ #tam{
+    /*type of color formats*/
+    color: yellowgreen;
+    color: rgb(255,255,255);
+    color: #f0f0f0;
+    color: hsl(100, 33%, 44%);
+    /* choosing the background colour*/
+    background-color: rgba(255 ,0,0,.5);
+    /* rgb used for the background color and "a" is used for the background visibility*/
+}
+/*texts in css */
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* font family and font sies */
+h1{
+    font-family: cursive;
+    font-size: 500%;
+}
+/* one em equal to 16 pixle  em is calculate from the the previous em values if the first em value is 32 pixel a nd we give em= 2em then it calculate from 32 then the total em value now is 32+16=48*/
+h2{
+    font-size: 2em;
+    color: tomato !important;
+}
+/* types of text decoration*/
+#dfg{
+   font-size: large;
+   font-family: Arial, Helvetica, sans-serif;
+   font-stretch: expanded;
+   text-transform: lowercase;
+   text-decoration: underline;
+   line-height: 1.5em;
+   letter-spacing: 0.2em;
+   word-spacing: 0.1em;
+   text-align: left;
+   text-indent: 50px;
+   text-shadow: 2px 2px 2px gold;
+   vertical-align:auto;
+}
+/*color change if the link is visited*/
+a:visited{
+   color: aquamarine;
+}
+/* change color while hover */
+a:hover{
+   color: blueviolet;
+}
+/* change color while clicked*/
+a:active{
+   color: blue;
+}
+/* change color while click the tab or way of input */
+a:focus{
+   color: gold;
+}
+/* boxes in css */
+#dfgj{
+   border: 10px solid black;
+   background:gainsboro;
+   text-align: justify;
+   text-transform: lowercase;
+   font-size: larger;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-weight: 100;
+   padding-top: 10px;
+   padding-left: 20px;
+   padding-bottom: 10px;
+   padding-right: 20px;
+   width: 400px;
+   height: 800px;
+   /* to hide the overflow text*/
+   overflow: hidden;
+   margin-top: 300px;
+   border-radius: 20px;
+   border-style: groove;
+   box-shadow: inset 10px 20px 10px gray;
+}
+/* displaying the content */
+#abi{
+   display: inline;
+   /* display:block; */
+   border: 2px solid green;
+   padding-left: 5px;
+   padding-top: 5px;
+   padding-right: 5px;
+   padding-bottom: 5px;
+   background-color: aliceblue;
+   text-decoration: none; 
+   word-spacing: 10px;
+
+}
+/* choosing orderd and unorderd lissts */
+ul{
+   list-style-type: square;
+   list-style-image:url("images/img1.jpeg");
+   list-style: circle;
+}
+ol{
+   list-style-type: decimal;
+}
+/* choosing the table */
+table{
+   width: 300px;
+   margin: auto;
+}
+/* choosing the head of the table */
+th{
+   text-transform: capitalize;
+   text-align: center;
+   border-bottom: 8px solid black;
+}
+/* choosing the table data */
+td{
+   padding: 10px;
+}
+

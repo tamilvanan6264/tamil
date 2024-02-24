@@ -1,0 +1,44 @@
+body{
+    background: url("/images/j10.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+}
+#plm{
+    border: 3px solid black;
+    background-color:rgba(0,0,0,.5);
+    width: 400px;
+    height: 340px;
+    margin-left: 570px;
+    margin-top: 230px;
+    border-radius: 15px;
+    max-width: 400px;
+    min-width: 400px;
+    max-height: 340px;
+    min-height: 320px;
+    color: aliceblue;
+    padding:10px 20px 30px;
+    font-size: 20px;
+}
+#tt{
+    color: brown;
+    text-align: center;
+}
+.reg label{
+    display: block;
+}
+.reg input{
+    width: 250px;
+    font-size: 1em;
+    box-sizing: border-box;
+    margin:5px 0px 10px ;
+    border-radius: 7px;
+}
+input:focus{
+    background-color: bisque;
+}
+button{
+   font-size: 17px;
+   color: black;
+   background-color:gray;
+   margin-top: 20px;
+   border-radius: 5px;
+}

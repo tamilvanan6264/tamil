@@ -1,0 +1,21 @@
+body{
+    background-color: rgba(0,0,0,.2);
+}
+.cont{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr)) ; 
+    column-gap: 10px; 
+    row-gap: 10px;
+    /* for the equal gap between the row and column  we use the gap:10px; */
+    /* gap:10px; */
+}
+p{
+    background-color:aqua;
+    padding: 20px;
+}
+.conte{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 10px;
+    grid-template-rows: 1fr 1fr 1fr;
+}

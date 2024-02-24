@@ -1,0 +1,27 @@
+.uty{
+    /* pixels */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.lo{
+    /* it will calculate the sie  from the existing sie */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+}
+.uty{
+    /* using rem it will calculate the sie from the root of the browser  */
+    font-size: 2rem;
+}
+#cv{
+    /* using vw and vh  it calculat form the sie of the browser 50% of the window sie */
+    width: 50vw;
+    height: 40vh;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.fi{
+    width: 50vmin;
+    height: 10vh;
+    border: 3px solid black;
+    border-radius: 5px;
+}

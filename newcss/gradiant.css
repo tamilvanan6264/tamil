@@ -1,0 +1,26 @@
+/* gradiant meas blending of color in a slight manner */
+/* type of gradiants : linear gradiant ,radial gradiant */
+.gra{
+    width: 350px;
+    height: 350px;
+    background:linear-gradient( to left,red 50%,yellow 90%);
+    /* to left  , to topright, to topleft ,to right it say where it start from end end   __ we can also give persentage how much the color can be occupied  by giving 10% or 20% */
+    /* we can also give the degree by using the 40deg or 180deg  start to end */
+    margin: auto;
+}
+.grs{
+    width: 350px;
+    height: 350px;
+    background: radial-gradient(blue ,yellow  ,red ,green);
+}
+.rep{
+    width: 350px;
+    height: 350px;
+    /* it will repeat the colours  */
+    background:repeating-linear-gradient(red 30px,blue 30px);
+}
+.ter{
+    width: 350px;
+    height: 350px;
+    background: repeating-radial-gradient(red,yellow,gray);
+}

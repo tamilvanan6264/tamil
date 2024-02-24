@@ -1,0 +1,46 @@
+.sqr{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    transition-duration: 3s;
+    transition-property: all;
+    transition-timing-function:ease-in-out;
+    transition-delay:0.5s;
+}
+.sqr:hover{
+    background-color: black;
+    width: 600px;
+    transform: rotate(45deg);
+    transform: scale(2);
+    transform: translate(20px); 
+}
+.cir{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: chocolate;
+    animation-name: tamil;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    position: relative;
+}
+@keyframes tamil {
+    0%{
+        background-color: white;
+        width: 20px;
+        height: 20px;
+    }
+    50%{
+        background-color: aqua;
+        width: 150px;
+        height: 150px;
+        left: 200px;
+    }
+    100%{
+        background-color: black;
+        width: 200px;
+        height: 200px;
+        left: 300px;
+    }
+}

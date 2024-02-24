@@ -1,0 +1,77 @@
+.qq{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    gap: 10px;
+}
+.qq div{
+   font-size: 4rem;
+    background-color: aqua;
+    justify-content: space-between;
+    color:black;
+}
+body{
+    background-color:rgba(0,0,0,.5);
+}
+.qw{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.qv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 2px;
+    text-align: center;
+}
+.qv div{
+    background-color: antiquewhite;
+    font-size: 4rem;
+}
+.qxx{
+    grid-column: span 6;
+}
+.qxj{
+    grid-column: span 2;
+    grid-row: span 250;
+}
+.qxc{
+    grid-column: span 2;
+    grid-row: span 250;
+}
+.qxt{
+    grid-column: span 2;
+    grid-row: span 250;
+}
+.qxy{
+    grid-column: span 6;
+}
+/* we can can achive the previos  box design by using the upcomming methods */
+.qt{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "h h h"
+    "sb1 m sb2"
+    "f f f";
+    gap: 2px;
+    font-size: 4rem;
+}
+.qtx{
+    grid-area: h;
+}
+.qtj{
+    grid-area: sb1;
+    height: 60vh;
+}
+.qtc{
+    grid-area: m;
+}
+.qtt{
+    grid-area: sb2;
+}
+.qty{
+    grid-area: f;
+}
+.qt div{
+    background-color: cadetblue;
+    text-align: center;
+}

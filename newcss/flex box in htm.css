@@ -1,0 +1,57 @@
+.cont{
+   display: flex;
+   flex-direction: column;
+}
+/* flex box will  defaultylly arange the contents in the row manners  is called flex direction row and we can able to arrange the contents in the coloum manner also  is called flex direction column*/
+.pone{
+    background-color: rgba(147, 189, 21, 0.5);
+    flex: 1;
+    order:2;
+}
+.ptwo{
+    background: yellow;
+    flex: 2;
+    order: 3;
+}
+.pthree{
+    background: brown;
+    flex: 1;
+    order:1;
+}
+.cont p{
+    margin: 10px 10px 10px;
+    padding: 5px 6px 5px;
+}
+.newcont p{
+    width: 100px;
+    height: 100px;
+    background-color: blue; 
+    margin: 10px 10px 10px;   
+    flex-grow: 1;
+}
+.newcont{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    flex-wrap: wrap;
+}
+/* justify content and align item are only applicable for the flex direction row  and it will complete opposite to the flex directi coloumn */
+.we{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0,0,0,.7);
+}
+.gg{
+    background-color: aqua;
+    width: 100vw;
+    height: 15vh;
+    justify-content: space-around; 
+    margin: 10px 10px 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.www{
+    align-self: flex-start;
+    flex-shrink: 9;
+    flex-basis: 0;
+}

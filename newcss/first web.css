@@ -1,0 +1,56 @@
+body{
+    background: url("/images/j10.jpg");
+}
+#as{
+    border: 3px solid black;
+    height: 440px;
+    width: 350px;
+    background-color: rgba(0,0, 0, .5);
+    border-radius: 10px;
+    position:fixed;
+    left: 550px;
+    top: 200px;
+    color: black;
+    font-size: 1.5em;
+    padding: 0px 20px 10px;
+
+}
+h1{
+text-align: center;
+color: orange;
+}
+#as label{
+    display: block;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+#as input{
+    font-size: 22px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+}
+#rrr label{
+    display:inline;
+}
+#rrr input{
+    margin-top: 20px;
+
+}
+
+button{
+    font-size: 0.8em;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: gray;
+}
+input:focus{
+    background-color: antiquewhite;
+}
+button:focus{
+    background-color: brown;
+    box-shadow: 9px;
+    border-radius: 9px;
+    
+}

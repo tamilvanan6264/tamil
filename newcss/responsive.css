@@ -1,0 +1,24 @@
+.one{
+    background-color: aqua;
+}
+.two{
+    background-color: brown;
+}
+.three{
+    background-color: burlywood;
+}
+@media all and (min-width:801px){
+    .res p{
+        width: 30%;
+        float: left;
+        padding: 10px;
+    }
+    .three{
+        background-color: blue;
+    }
+}
+@media print{
+    body{
+        background-color: none;
+    }
+}
