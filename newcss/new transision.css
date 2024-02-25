@@ -162,7 +162,7 @@ body{
 .yo table th{
     font-size: 1.9rem;
 }
-@media all and (max-width: 450px){
+@media all and (max-width: 500px){
     .leftbox{
         width:15.95vw;
         height: 516px;
