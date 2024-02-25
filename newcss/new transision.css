@@ -207,6 +207,9 @@ body{
         font-size: 0.9rem;
         top: 20px;
     }
+    body{
+        overflow-x: hidden;
+    }
     .yo table th{
         font-size: 1.4rem;
     }
